@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="612ae3cb-d5e9-435e-8020-ac2319476d3a" name="Default Changelist" comment="" />
+    <list default="true" id="612ae3cb-d5e9-435e-8020-ac2319476d3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/Books.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/data/books.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/Book.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/store/BookStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/store/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/Book.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/BookList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/UsersGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/UsersGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/Viewport.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/Viewport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme-triton-all-debug_2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme-triton-all-debug_2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme-triton-all-rtl-debug_2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme-triton-all-rtl-debug_2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme-triton-all-rtl_2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme-triton-all-rtl_2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme-triton-all_2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme-triton-all_2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extjs/ext-all-debug.js" beforeDir="false" afterPath="$PROJECT_DIR$/extjs/ext-all-debug.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +40,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gF2zCuVOUwgXMXYxNWHpJ9tzTS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,6 +52,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -39,7 +68,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597696279568</updated>
-      <workItem from="1597696280727" duration="5335000" />
+      <workItem from="1597696280727" duration="5494000" />
+      <workItem from="1597747003939" duration="14030000" />
+      <workItem from="1597762302421" duration="3704000" />
     </task>
     <servers />
   </component>
@@ -47,13 +78,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597762086382">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1597762086382" />
     <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1597700753812">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1597700753812" />
-    <state x="684" y="291" width="618" height="522" key="find.popup" timestamp="1597703198929">
+    <state x="684" y="291" width="618" height="580" key="find.popup" timestamp="1597749427383">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="684" y="291" width="618" height="522" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1597703198929" />
+    <state x="684" y="291" width="618" height="580" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1597749427383" />
   </component>
 </project>

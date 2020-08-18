@@ -1,3 +1,4 @@
+
 Ext.application({
     name : 'TaskBoard',
     autoCreateViewport: true,

@@ -3,9 +3,18 @@
  */
 Ext.define('TaskBoard.view.Viewport', {
     extend: 'Ext.container.Viewport',
+    alias: 'View.Viewport',
     requires: [
         'TaskBoard.view.UsersGrid',
-        'TaskBoard.store.Users'
+        'TaskBoard.view.FullCard',
+        'TaskBoard.view.Board',
+        'TaskBoard.store.Users',
+        'TaskBoard.view.Card',
+        'TaskBoard.ViewModel.TestViewModel',
+        'TaskBoard.ViewModel.TaskModel',
+        'TaskBoard.ViewModel.BoardViewModel'
+
+
     ],
 
     defaultListenerScope: true,
@@ -29,10 +38,17 @@ Ext.define('TaskBoard.view.Viewport', {
             store: {
                 type: 'users'
             }
-        }]
+        },
+            {
+                xtype:'board',
+            },
+            {
+                xtype: 'full_card'
+            }
+        ]
     }],
 
     readOnlyButton_click: function (self) {
-        this.down('usersgrid').setReadOnly(self.pressed);
+        this.down('usersgrid').getViewModel().set('readOnly', self.pressed);
     }
 });
