@@ -42,9 +42,9 @@ Ext.define('TaskBoard.view.Viewport', {
             {
                 xtype:'board',
             },
-            {
-                xtype: 'full_card'
-            }
+            // {
+            //     xtype: 'full_card'
+            // }
         ]
     }],
 

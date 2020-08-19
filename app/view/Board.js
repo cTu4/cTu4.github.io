@@ -7,7 +7,15 @@ Ext.define('TaskBoard.view.Board',{
     viewModel:{
         type: 'BoardViewModel'
     },
-    bind:{
-        title: '{board_data}'
+
+    constructor: function (config) {
+        return this.callParent(arguments);
+    },
+    initComponent: function () {
+        Ext.applyIf(this, {
+
+        });
+
+        this.callParent(arguments);
     }
 });

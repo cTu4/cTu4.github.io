@@ -7,6 +7,5 @@
     <script type="text/javascript" src="app.js"></script>
 </head>
 <body>
-aaaaaaa
 </body>
 </html>
