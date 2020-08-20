@@ -6,6 +6,7 @@ Ext.define('TaskBoard.ViewModel.BoardViewModel',{
           type:'users'
       }
     },
+
     formulas:{
       board_data(get){
           let store = get('Users').getData().items;
@@ -34,22 +35,22 @@ Ext.define('TaskBoard.ViewModel.BoardViewModel',{
               xtype:'panel'
           });
           let keys = Object.keys(data);
-          keys.forEach(function (key){
-              items.add({
-                  xtype:'panel',
-                  id: key,
-                  title: key
-              });
-              data[key].forEach(function (item){
-                  Ext.getCmp(key).add({
-                      xtype:'panel',
-                      title: item.data.number,
-                      html: item.data.task
-                  });
-              })
-          });
+          // keys.forEach(function (key){
+          //     items.add({
+          //         xtype:'panel',
+          //         id: key,
+          //         title: key
+          //     });
+          //     data[key].forEach(function (item){
+          //         Ext.getCmp(key).add({
+          //             xtype:'panel',
+          //             title: item.data.number,
+          //             html: item.data.task
+          //         });
+          //     })
+          // });
           console.log(items);
-          return items;
+          return data;
       }
     },
     data:{

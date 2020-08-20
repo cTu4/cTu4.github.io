@@ -26,19 +26,20 @@ Ext.define('TaskBoard.view.Viewport', {
         defaults: {
             margin: '10 0'
         },
-        items: [{
-            xtype: 'button',
-            text: 'Set Read only',
-            enableToggle: true,
-            handler: 'readOnlyButton_click'
-        }, {
-            xtype: 'usersgrid',
-            title: 'Users',
-            border: true,
-            store: {
-                type: 'users'
-            }
-        },
+        items: [
+        //     {
+        //     xtype: 'button',
+        //     text: 'Set Read only',
+        //     enableToggle: true,
+        //     handler: 'readOnlyButton_click'
+        // }, {
+        //     xtype: 'usersgrid',
+        //     title: 'Users',
+        //     border: true,
+        //     store: {
+        //         type: 'users'
+        //     }
+        // },
             {
                 xtype:'board',
             },

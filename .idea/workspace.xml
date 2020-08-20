@@ -4,7 +4,6 @@
     <list default="true" id="612ae3cb-d5e9-435e-8020-ac2319476d3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/ViewModel/BoardViewModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/ViewModel/BoardViewModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/Board.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/view/Viewport.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/Viewport.js" afterDir="false" />
     </list>
@@ -55,7 +54,8 @@
       <workItem from="1597747003939" duration="14030000" />
       <workItem from="1597762302421" duration="3704000" />
       <workItem from="1597834913350" duration="4910000" />
-      <workItem from="1597840503261" duration="1889000" />
+      <workItem from="1597840503261" duration="1941000" />
+      <workItem from="1597916737935" duration="5130000" />
     </task>
     <servers />
   </component>
@@ -75,5 +75,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="684" y="291" width="618" height="580" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1597749427383" />
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1597920537260">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873@67.27.1533.873" timestamp="1597920537260" />
   </component>
 </project>
