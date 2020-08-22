@@ -20,33 +20,7 @@ Ext.define('TaskBoard.view.Viewport', {
     defaultListenerScope: true,
 
     items: [{
-        title: 'Outer Container',
-        xtype: 'panel',
-        bodyPadding: 10,
-        defaults: {
-            margin: '10 0'
-        },
-        items: [
-        //     {
-        //     xtype: 'button',
-        //     text: 'Set Read only',
-        //     enableToggle: true,
-        //     handler: 'readOnlyButton_click'
-        // }, {
-        //     xtype: 'usersgrid',
-        //     title: 'Users',
-        //     border: true,
-        //     store: {
-        //         type: 'users'
-        //     }
-        // },
-            {
-                xtype:'board',
-            },
-            // {
-            //     xtype: 'full_card'
-            // }
-        ]
+        xtype: 'board'
     }],
 
     readOnlyButton_click: function (self) {
