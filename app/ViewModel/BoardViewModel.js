@@ -9,7 +9,6 @@ Ext.define('TaskBoard.ViewModel.BoardViewModel',{
     formulas:{
       board_data(get){
           let store = get('Users').getData().items;
-          console.log(store);
           let data = [];
           data['plan']=[];
           data['progress'] = [];
@@ -32,6 +31,10 @@ Ext.define('TaskBoard.ViewModel.BoardViewModel',{
               }
           });
           return data;
-      }
+      },
+        card_data(get){
+            let store = get('Users');
+            return store;
+        }
     }
 });

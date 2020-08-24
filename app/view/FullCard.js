@@ -1,6 +1,7 @@
 Ext.define('TaskBoard.view.FullCard',{
     extend: 'Ext.panel.Panel',
     xtype: 'full_card',
+    id:'full_card',
     reference: 'full_card',
     viewModel:{
         type: 'TaskModel'
@@ -9,35 +10,51 @@ Ext.define('TaskBoard.view.FullCard',{
         type: 'vbox',
         align: 'stretch'
     },
+    titleAlign: 'center',
     bodyPadding: '10px',
+    defaults:{
+        style: {
+            textAlign:'center'
+        },
+    },
+    setHeader(color){
+      this.header.setStyle('background',color);
+    },
     items:[
                 {
+                    xtype: 'displayfield',
+
                     bind:{
-                        html:"Наименование задачи: '{task}'"
+                        value:"Наименование задачи: '{task}'"
                     }
                 },
                 {
+                    xtype: 'displayfield',
                     bind:{
-                        html:"<p>Испольнитель: {surname} {name}</p>"
+                        value:"<p>Испольнитель: {surname} {name}</p>"
                     }
                 },
                 {
+                    xtype: 'displayfield',
                     bind:{
-                        html:"<p>Статус: {status}</p>"
+                        value:"<p>Статус: {status}</p>"
                     }
                 },
                 {
+                    xtype: 'displayfield',
                     bind:{
-                        html:"<p>Важность: {important}</p>"
+                        value:"<p>Важность: {important_text}</p>"
                     }
                 },
                 {
+                    xtype: 'displayfield',
                     bind:{
-                        html:"<p>Дата: {date}</p>"
+                        value:"<p>Дата: {date}</p>"
                     }
                 }
     ],
     bind:{
-        title: 'Задача {number}'
+        title: 'Задача {number}',
+        header:'{color}'
     }
 });

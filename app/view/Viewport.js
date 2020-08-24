@@ -21,9 +21,14 @@ Ext.define('TaskBoard.view.Viewport', {
 
     items: [{
         xtype: 'board'
-    }],
+    },
+        {
+            xtype: 'full_card',
+           // hidden:true
+        }],
 
     readOnlyButton_click: function (self) {
         this.down('usersgrid').getViewModel().set('readOnly', self.pressed);
     }
+
 });
